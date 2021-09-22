@@ -1,0 +1,14 @@
+{
+  "name": "resource-extension",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery-csv": "^1.0.21"
+  },
+  "devDependencies": {
+    "extension-create": "^0.5.1"
+  },
+  "scripts": {
+    "start": "extension-create start"
+  }
+}
