@@ -61,7 +61,19 @@ h1, h2, h3, h4, h5 {
   bottom: 0%;
   background-color: #FFFFFF;
   width: 100%;
-  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-button {
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+  border: solid;
+  border-color: #000000;
+  border-width: thin;
+}
+
+.footer-buffer {
+  padding:1rem;
 }
 
 /* company */
@@ -98,6 +110,10 @@ h1, h2, h3, h4, h5 {
   background-color: #D31E13;
 }
 
+.yellow {
+  background-color: #D3A913;
+}
+
 /* news */
 
 .news-group {
@@ -120,14 +136,23 @@ h1, h2, h3, h4, h5 {
   border-color: #000000;
   border-width: thin;
   margin: 0.2rem 0.2rem 0.2rem 0;
+  padding: 0.3rem;
 }
 
 .file-label {
+  background-color: #F2F0F0;
   padding: 0.2rem 0.3rem;
   margin: 0.2rem 0.2rem 0.2rem 0;
-  border: solid;
+  border-top: 1px solid;
+  border-right: 2px solid;
+  border-left: 5px solid;
   border-color: #000000;
   border-width: thin;
+  z-index: 999;
+}
+
+.file-label-wrapper {
+  margin: 0 0 -1.4rem 0rem;
 }
 
 .file-label-text {
