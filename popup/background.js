@@ -1,15 +1,20 @@
 console.log('background script loaded');
 
-// var fs = require('fs');
-// var csv = require('jquery-csv');
-// var sample = './data.csv';
-//
-// fs.readFile(sample, 'UTF-8', function (err, csv) {
-//   if (err) { console.log(err); }
-//   csv.toArrays(csv, {}, function (err, data) {
-//     if (err) { console.log(err); }
-//     for (var i = 0, len = data.length; i < len; i++) {
-//       console.log(data[i]);
-//     }
-//   });
-// });
+// create a sheet and set the header row
+const sheet = await doc.addSheet({ headerValues: ['name', 'email'] });
+
+// append rows
+const larryRow = await sheet.addRow({ name: 'Larry Page', email: 'larry@google.com' });
+const moreRows = await sheet.addRows([
+  { name: 'Sergey Brin', email: 'sergey@google.com' },
+  { name: 'Eric Schmidt', email: 'eric@google.com' },
+]);
+
+// read rows
+const rows = await sheet.getRows(); // can pass in { limit, offset }
+
+// read/write row values
+console.log(rows[0].name); // 'Larry Page'
+rows[1].email = 'sergey@abc.xyz'; // update a value
+await rows[1].save(); // save updates
+await rows[1].delete(); // delete a row

@@ -1,9 +1,13 @@
 body {
-  background: #ffffff;
+  background: #F2F0F0;
   width: 300px;
   height: 400px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "VT323", serif;
+  font-size: 0.9rem;
+  font-weight: 100;
   border: 1px;
+  padding: 0;
+  margin: 0;
 }
 
 main {
@@ -14,16 +18,13 @@ main {
 
 .sub-category {
   display: flex;
+  padding: 0.5rem 1rem;
   /* justify-content: space-evenly; */
 }
 
 .sub-category-title {
   font-weight: bold;
   float: left;
-}
-
-.logo {
-  weight: 500px;
 }
 
 .horizontal {
@@ -37,24 +38,64 @@ main {
 hr {
   width: 40%;
 }
+
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+
+.logo-header {
+  width: 100%;
+  background-color: #2347A4;
+  color: #FFFFFF;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  background-color: #FFFFFF;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 /* company */
 
-/* graph */
+.company-logo {
+  max-width: auto;
+  max-height: 2rem;
+  padding: 0 1rem 0 0;
+}
 
-/* description */
-
-/* facts */
+.company-name {
+  padding: 0;
+  margin: 0;
+}
 
 /* highlights */
 
 .hightlight-circle {
   border-radius: 50%;
-  border: solid;
-  border-color: #000000;
+  /* border: solid; */
+  /* border-color: #000000; */
   border-width: thin;
-  width: 6px;
-  height: 6px;
+  width: 10px;
+  height: 10px;
   float: left;
+  margin: 0.2rem 0.5rem 0 0;
+}
+
+.green {
+  background-color: #179715;
+}
+
+.red {
+  background-color: #D31E13;
 }
 
 /* news */
@@ -70,4 +111,25 @@ hr {
   width: 30px;
   height: 30px;
   float: left;
+}
+
+/* file */
+
+.file-group {
+  border: solid;
+  border-color: #000000;
+  border-width: thin;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+
+.file-label {
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+  border: solid;
+  border-color: #000000;
+  border-width: thin;
+}
+
+.file-label-text {
+  color: #FFFFFFF;
 }
