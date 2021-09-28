@@ -1,0 +1,144 @@
+[
+ {
+   "name": "Zara",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
+   "description": "",
+   "url": "www.zara.com",
+   "hostname": "zara.com",
+   "points": [
+     {
+       "type": "Supplier list",
+       "exists": false
+     },
+     {
+       "type": "Workers Remedy",
+       "exists": false
+     },
+     {
+       "type": "Improvements Freedom Association",
+       "exists": false
+     }
+   ],
+   "stories": [
+     {
+       "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
+       "source": "https://www.business-humanrights.org/en/latest-news/french-launch-probe-into-uniqlo-zara-owner-and-others-over-forced-uighur-labour/",
+       "date": "02/07/2021"
+     },
+     {
+       "title": "Myanmar: Protesters press major global fashion companies to bolster worker protections",
+       "source": "https://www.business-humanrights.org/en/latest-news/myanmar-protesters-call-major-global-fashion-companies-to-bolster-worker-protections/",
+       "date": "29/03/2021"
+     },
+     {
+       "title": "Turkey: Shoppers at Zara find notes from unpaid factory workers sewn into clothes; incl. company comments",
+       "source": "https://www.business-humanrights.org/en/latest-news/turkey-shoppers-at-zara-find-notes-from-unpaid-factory-workers-sewn-into-clothes-incl-company-comments/",
+       "date": "06/11/2017"
+     }
+   ],
+   "indices": [
+     {
+       "type": "RDR",
+       "value": ""
+     },
+     {
+       "type": "KTC",
+       "value": "55/100"
+     }
+   ]
+ },
+ {
+   "name": "Apple",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
+   "description": "",
+   "url": "https://www.zara.com/",
+   "points": [
+     {
+       "type": "Supplier list",
+       "exists": false
+     },
+     {
+       "type": "Workers Remedy",
+       "exists": false
+     },
+     {
+       "type": "Improvements Freedom Association",
+       "exists": false
+     }
+   ],
+   "stories": [
+     {
+       "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
+       "source": "https://www.business-humanrights.org/en/latest-news/french-launch-probe-into-uniqlo-zara-owner-and-others-over-forced-uighur-labour/",
+       "date": "02/07/2021"
+     },
+     {
+       "title": "Myanmar: Protesters press major global fashion companies to bolster worker protections",
+       "source": "https://www.business-humanrights.org/en/latest-news/myanmar-protesters-call-major-global-fashion-companies-to-bolster-worker-protections/",
+       "date": "29/03/2021"
+     },
+     {
+       "title": "Turkey: Shoppers at Zara find notes from unpaid factory workers sewn into clothes; incl. company comments",
+       "source": "https://www.business-humanrights.org/en/latest-news/turkey-shoppers-at-zara-find-notes-from-unpaid-factory-workers-sewn-into-clothes-incl-company-comments/",
+       "date": "06/11/2017"
+     }
+   ],
+   "indices": [
+     {
+       "type": "RDR",
+       "value": ""
+     },
+     {
+       "type": "KTC",
+       "value": "55/100"
+     }
+   ]
+ },
+ {
+   "name": "Samsung",
+   "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
+   "description": "",
+   "url": "https://www.zara.com/",
+   "points": [
+     {
+       "type": "Supplier list",
+       "exists": false
+     },
+     {
+       "type": "Workers Remedy",
+       "exists": false
+     },
+     {
+       "type": "Improvements Freedom Association",
+       "exists": false
+     }
+   ],
+   "stories": [
+     {
+       "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
+       "source": "https://www.business-humanrights.org/en/latest-news/french-launch-probe-into-uniqlo-zara-owner-and-others-over-forced-uighur-labour/",
+       "date": "02/07/2021"
+     },
+     {
+       "title": "Myanmar: Protesters press major global fashion companies to bolster worker protections",
+       "source": "https://www.business-humanrights.org/en/latest-news/myanmar-protesters-call-major-global-fashion-companies-to-bolster-worker-protections/",
+       "date": "29/03/2021"
+     },
+     {
+       "title": "Turkey: Shoppers at Zara find notes from unpaid factory workers sewn into clothes; incl. company comments",
+       "source": "https://www.business-humanrights.org/en/latest-news/turkey-shoppers-at-zara-find-notes-from-unpaid-factory-workers-sewn-into-clothes-incl-company-comments/",
+       "date": "06/11/2017"
+     }
+   ],
+   "indices": [
+     {
+       "type": "RDR",
+       "value": ""
+     },
+     {
+       "type": "KTC",
+       "value": "55/100"
+     }
+   ]
+ }
+]
