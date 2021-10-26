@@ -1,109 +1,109 @@
 [
  {
-   "name": "Zara",
+   "name": "zara",
    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
    "description": "",
-   "url": "www.zara.com",
-   "items": [
+   "known_urls": "www.zara.com,zara.com",
+   "categories": [
      {
-       "type": "csr",
-       "categories": [
+       "type": "1",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -111,104 +111,104 @@
        ]
      },
      {
-       "type": "metrics",
-       "categories": [
+       "type": "2",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -216,7 +216,7 @@
        ]
      },
      {
-       "type": "investigations",
+       "type": "3",
        "stories": [
          {
            "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
@@ -251,107 +251,107 @@
    "name": "Apple",
    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
    "description": "",
-   "url": "www.apple.com",
-   "items": [
+   "known_urls": "www.apple.com",
+   "categories": [
      {
-       "type": "csr",
-       "categories": [
+       "type": "1",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -359,104 +359,104 @@
        ]
      },
      {
-       "type": "metrics",
-       "categories": [
+       "type": "2",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -464,7 +464,7 @@
        ]
      },
      {
-       "type": "investigations",
+       "type": "3",
        "stories": [
          {
            "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
@@ -499,107 +499,107 @@
    "name": "Samsung",
    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Zara.png",
    "description": "",
-   "url": "www.samsung.com",
-   "items": [
+   "known_urls": "www.samsung.com,samsung.com,news.samsung.com",
+   "categories": [
      {
-       "type": "csr",
-       "categories": [
+       "type": "1",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -607,104 +607,104 @@
        ]
      },
      {
-       "type": "metrics",
-       "categories": [
+       "type": "2",
+       "subcategories": [
          {
-           "type": "Wages, Benefits, Contracts",
+           "type": "1",
            "points": [
              {
-               "text": "point 1",
-               "rating": "block",
+               "type": "1",
+               "rating": "4",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Grievance Mechanism",
+           "type": "2",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Anti-Discrimination & Harassment",
+           "type": "3",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Prevention of Underage & Forced Labor",
+           "type": "4",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
          },
          {
-           "type": "Freedom of Association & Collective Bargaining",
+           "type": "5",
            "points": [
              {
-               "text": "point 1",
-               "rating": "good",
+               "type": "1",
+               "rating": "1",
                "source": "www.google.com"
              },
              {
-               "text": "point 2",
-               "rating": "bad",
+               "type": "2",
+               "rating": "3",
                "source": "www.google.com"
              },
              {
-               "text": "point 3",
-               "rating": "neutral",
+               "type": "3",
+               "rating": "2",
                "source": "www.google.com"
              }
            ]
@@ -712,7 +712,7 @@
        ]
      },
      {
-       "type": "investigations",
+       "type": "3",
        "stories": [
          {
            "title": "French launch probe into Uniqlo, Zara owner and others over forced Uighur labour",
@@ -734,11 +734,11 @@
    ],
    "indices": [
      {
-       "type": "RDR",
+       "type": "1",
        "value": ""
      },
      {
-       "type": "KTC",
+       "type": "2",
        "value": "55/100"
      }
    ]
