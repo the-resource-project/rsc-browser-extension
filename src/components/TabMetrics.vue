@@ -1,13 +1,17 @@
 <template>
   <div class="tab-metrics">
+    <tab-item-list :subcategories="subcategories" />
   </div>
 </template>
 
 <script>
+import { filter } from 'lodash'
+import TabItemList from '@/components/TabItemList.vue'
 
 export default {
   name: 'TabMetrics',
   components: {
+    TabItemList
   },
   props: {
     company: {
@@ -16,7 +20,13 @@ export default {
   },
   data () {
     return {
-      categories: ['Wages, Benefits, Contracts', 'Grievance Mechanism', 'Anti-Discrimination & Harassment', 'Prevention of Underage & Forced Labor', 'Freedom of Association & Collective Bargaining']
+      categoryType: '2',
+    }
+  },
+  computed: {
+    subcategories () {
+      const object = filter(this.company.categories, ['type', this.categoryType])[0]
+      return object.subcategories
     }
   }
 }

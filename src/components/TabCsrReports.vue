@@ -1,11 +1,11 @@
 <template>
   <div class="tab-csr-reports">
-    <tab-item-list :items="items" :categories="categories" />
+    <tab-item-list :subcategories="subcategories" />
   </div>
 </template>
 
 <script>
-import filter from 'lodash/filter'
+import { filter } from 'lodash'
 import TabItemList from '@/components/TabItemList.vue'
 
 export default {
@@ -20,14 +20,13 @@ export default {
   },
   data () {
     return {
-      itemName: 'csr',
-      categories: ['Wages, Benefits, Contracts', 'Grievance Mechanism', 'Anti-Discrimination & Harassment', 'Prevention of Underage & Forced Labor', 'Freedom of Association & Collective Bargaining']
+      categoryType: '1',
     }
   },
   computed: {
-    items () {
-      console.log(this.company.items);
-      return filter(this.company.items, ['type', this.itemName])[0]
+    subcategories () {
+      const object = filter(this.company.categories, ['type', this.categoryType])[0]
+      return object.subcategories
     }
   }
 }

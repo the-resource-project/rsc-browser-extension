@@ -1,18 +1,18 @@
 <template>
   <div class="tab-item-list">
-    <article class="list-group-item"  v-for="(category, index) in categories" :key="index" :class="{ 'bg-light': isActive === index }">
+    <article class="list-group-item"  v-for="(subcategory, index) in subcategoryObjects" :key="index" :class="{ 'bg-light': isActive === index }">
       <div class="d-flex flex-row" @click="toggleItem(index)">
         <div class="p-2 w-100">
-          {{ category }}
+          {{ generateSubcategoryTitle(subcategory) }}
         </div>
         <div class="p-2 flex-shrink">
           <font-awesome-icon icon="angle-down" />
         </div>
       </div>
       <div v-if="isActive === index" class="py-2">
-        <div class="p-2" v-for="(point, index) in getCategoryPoints(index, category)" :key="index">
+        <div class="p-2" v-for="(point) in getSubCategoryPoints(index)" :key="point.type + Math.random()">
           <font-awesome-icon :icon="generateIcon(point.rating)" />
-          <span class="pl-5">{{ point.text }}</span>
+          <span class="pl-5">{{ generatePoint(point.type, index) }}</span>
         </div>
       </div>
     </article>
@@ -20,15 +20,12 @@
 </template>
 
 <script>
-import filter from 'lodash/filter'
+import { get, values } from 'lodash'
 
 export default {
   name: 'TabItemList',
   props: {
-    items: {
-      type: Array
-    },
-    categories: {
+    subcategories: {
       type: Array
     }
   },
@@ -37,33 +34,42 @@ export default {
       isActive: null
     }
   },
+  computed: {
+    subcategoryObjects () {
+      return values(this.subcategories)
+    },
+    uniquePointKey () {
+      return `point-${Math.random()}`
+    }
+  },
   methods: {
     toggleItem (index) {
       this.isActive = this.isActive === index ? null : index
     },
-    getCategoryPoints (index, categoryName) {
-      const category = filter(this.items.categories, ['type', categoryName])[0]
-      return category.points
+    getSubCategoryPoints (index) {
+      return get(this.subcategoryObjects[index], 'points')
     },
-    generateIcon (rating) {
-      let icon
-      switch (rating) {
+    generateSubcategoryTitle (subcategory) {
+      const type = subcategory['type']
+      return this.subCategoryTypes[type]
+    },
+    generateIcon (pointRating) {
+      const description = this.ratingTypes[pointRating]
+      switch (description) {
         case 'good':
-          icon = 'thumbs-up'
-          break;
+          return 'smile'
         case 'bad':
-          icon = 'thumbs-down'
-          break;
+          return 'frown'
         case 'block':
-          icon = 'exclamation-triangle'
-          break;
+          return 'dizzy'
         case 'neutral':
-          icon = 'stop-circle'
-          break;
+          return 'meh'
         default:
-          icon = 'question'
+          return 'question'
       }
-      return icon
+    },
+    generatePoint (pointType, index) {
+      return this.pointTypes[index + 1][pointType]
     }
   }
 }
