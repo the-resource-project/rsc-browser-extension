@@ -10,9 +10,9 @@
         </p>
 
         <ul class="nav nav-tabs justify-content-start">
-          <li class="nav-item" v-for="tab in tabs" v-bind:id="formatTabId(tab)" :key="tab">
-            <a :class="{ active: currentTab === tab }" class="nav-link tablinks" href="#" @click="currentTab = tab">
-              {{ tab }}
+          <li class="nav-item" v-for="category in categories" v-bind:id="formatTabId(category)" :key="category">
+            <a :class="{ active: currentTab === category }" class="nav-link tablinks" href="#" @click="currentTab = category">
+              {{ category }}
             </a>
           </li>
         </ul>
@@ -32,9 +32,11 @@
 </template>
 
 <script>
-import filter from 'lodash/filter'
+import { filter } from 'lodash'
 import companies from '@/data/companies.json'
 import TabsHolder from '@/components/TabsHolder.vue'
+
+const CATEGORIES = ["CSR Reports", "Metrics", "Investigations"]
 
 export default {
   name: 'App',
@@ -44,8 +46,8 @@ export default {
   data () {
     return {
       company: null,
-      tabs: ['CSR Reports', 'Metrics', 'Investigations'],
-      currentTab: 'CSR Reports'
+      currentTab: CATEGORIES[0],
+      categories: CATEGORIES
     }
   },
   computed: {
@@ -62,8 +64,11 @@ export default {
   },
   created () {
     chrome.tabs.query({ active: true, lastFocusedWindow: true }, tabs => {
-      const url = new URL(tabs[0].url);
-      const company = filter(companies, ['url', url.hostname])
+      const url = new URL(tabs[0].url)
+      const company = filter(companies, (company) => {
+        const urls = company.known_urls.split(',')
+        return urls.includes(url.hostname)
+      })
       this.company = company[0]
     })
   }
@@ -73,6 +78,5 @@ export default {
 <style>
   html {
     width: 400px;
-    height: 400px;
   }
 </style>
