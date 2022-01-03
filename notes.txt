@@ -1,0 +1,19 @@
+{
+  "name": "Apple",
+  "logo": "https://media.business-humanrights.org/media/images/httpsbhrrc.contentfiles.netmediaimagesapple-lo.width-800.png",
+  "description": "Apple is a multinational techhnology company that manufactures computers, smartphones, and other devices, and produces the iOS operating system and application software.",
+  "Point_1_Supplier_List": "point_1",
+  "Point_2_Workers_Remedy": "point_2",
+  "Point_3_Improvements_Freedom_Association": "point_3",
+  "Story_1": "Common Sense Media finds streaming apps & devices put privacy of children at risk ",
+  "Story_1_Source": "https://www.business-humanrights.org/en/latest-news/common-sense-media-finds-streaming-apps-devices-put-privacy-of-children-at-risk/",
+  "Story_1_Date": "",
+  "Story_2": "Common Sense Media finds streaming apps & devices put privacy of children at risk ",
+  "Story_2_Source": "https://www.business-humanrights.org/en/latest-news/common-sense-media-finds-streaming-apps-devices-put-privacy-of-children-at-risk/",
+  "Story_2_Date": "",
+  "Story_3": "Common Sense Media finds streaming apps & devices put privacy of children at risk ",
+  "Story_3_Source": "https://www.business-humanrights.org/en/latest-news/common-sense-media-finds-streaming-apps-devices-put-privacy-of-children-at-risk/",
+  "Story_3_Date": "",
+  "RDR_Index": "43/100",
+  "KTC_Index": "68/100"
+}
