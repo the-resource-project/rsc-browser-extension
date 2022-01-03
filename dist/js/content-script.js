@@ -1431,7 +1431,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2590,7 +2590,7 @@ eval("__webpack_require__(/*! ./node_modules/core-js/modules/es.array.iterator.j
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
 /*!*****************************************************!*\
   !*** multi ./src/content-scripts/content-script.js ***!
   \*****************************************************/

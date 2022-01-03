@@ -23,7 +23,6 @@
     ],
     "persistent": true
   },
-  "devtools_page": "devtools.html",
   "browser_action": {
     "default_popup": "popup.html",
     "default_title": "__MSG_extName__",
@@ -31,13 +30,6 @@
       "19": "icons/19.png",
       "38": "icons/38.png"
     }
-  },
-  "options_ui": {
-    "page": "options.html",
-    "browser_style": true
-  },
-  "chrome_url_overrides": {
-    "newtab": "override.html"
   },
   "version": "0.1.0",
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
