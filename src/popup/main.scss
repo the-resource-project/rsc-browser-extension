@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@import './utils/_settings.scss';
+
+@import '~node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import '~node_modules/bootstrap-vue/src/index';
+
+* {
+  font-size: 16px;
+	font-family: 'VT323' !important;
+}
