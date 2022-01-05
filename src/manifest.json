@@ -8,8 +8,6 @@
     "activeTab",
     "<all_urls>",
     "*://*/*",
-    "storage",
-    "webRequest",
     "tabs"
   ],
   "icons": {
@@ -31,12 +29,5 @@
       "19": "icons/19.png",
       "38": "icons/38.png"
     }
-  },
-  "options_ui": {
-    "page": "options.html",
-    "browser_style": true
-  },
-  "chrome_url_overrides": {
-    "newtab": "override.html"
   }
 }

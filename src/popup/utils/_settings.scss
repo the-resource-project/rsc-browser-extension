@@ -1,0 +1,10 @@
+// Bootstrap variables and mixins must be available everywhere
+@import '~node_modules/bootstrap/scss/_functions.scss';
+@import '~node_modules/bootstrap/scss/_variables.scss';
+@import '~node_modules/bootstrap/scss/_mixins.scss';
+
+$spacer-xs: $spacer * 0.5;
+$spacer-sm: $spacer * 0.75;
+$spacer-lg: $spacer * 1.5;
+$spacer-xl: $spacer * 2;
+$spacer-xxl: $spacer * 4;

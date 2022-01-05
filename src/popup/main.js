@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import { BootstrapVue } from 'bootstrap-vue'
-import App from './App.vue'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faSmile, faMeh, faFrown, faDizzy, faAngleDown, faQuestion } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-// Import Bootstrap an BootstrapVue CSS files (order is important)
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import './main.scss'
+
+import App from './App.vue'
 
 import CompaniesReference from '@/mixins/companies-reference'
 
