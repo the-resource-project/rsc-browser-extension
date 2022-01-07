@@ -1,5 +1,5 @@
 <template>
-  <div class="tabs-holder">
+  <div class="tabs-holder mb-2 ">
     <div v-if="currentTabComponent === 'tab-csr-reports'" class="tab pl-1 pt-2 border-top-0">
       <tab-csr-reports :company="company" />
     </div>

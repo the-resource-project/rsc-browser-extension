@@ -1,11 +1,11 @@
 <template>
   <div class="tab-item-list">
-    <article class="list-group-item"  v-for="(subcategory, index) in subcategoryObjects" :key="index" :class="{ 'bg-light': isActive === index }">
+    <article class="list-group-item mb-2" v-for="(subcategory, index) in subcategoryObjects" :key="index" :class="{ 'list-group-item-title-holder': isActive !== index }">
       <div class="d-flex flex-row" @click="toggleItem(index)">
-        <div class="p-2 w-100">
+        <div class="list-group-item-title w-100">
           {{ generateSubcategoryTitle(subcategory) }}
         </div>
-        <div class="p-2 flex-shrink">
+        <div class="flex-shrink">
           <font-awesome-icon icon="angle-down" />
         </div>
       </div>
@@ -76,4 +76,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .tab-item-list {
+    .list-group-item {
+      border: 1px solid #000000 !important;
+    }
+
+    .list-group-item-title-holder {
+      height: 44px;
+    }
+
+    .list-group-item-title {
+      font-size: 18px !important;
+    }
+  }
 </style>
